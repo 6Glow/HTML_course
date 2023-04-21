@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" autocomplete="off">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" minlength="5" maxlength="36" required>
+        <label for="name">Age</label>
+        <input type="number" name="age" id="age" min="0" max="100" required>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <optgroup label="Europe">
+                <option value="GB">Great Britain</option>
+                <option value="PL">Poland</option>
+                <option value="PT">Portugal</option>
+            </optgroup>
+            <optgroup label="America">
+                <option value="US">United States</option>
+                <option value="GE">Canada</option>     
+                <option value="MX">Mexico</option>
+            </optgroup>
+        </select>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
